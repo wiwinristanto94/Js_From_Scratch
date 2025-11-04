@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person = {
+            // address :{
+            //     country: "indonesia"
+            // }
+        };
+
+        // const country = person.address.country;
+
+        // console.info(country);
+        // console.info("sukses");
+
+        //lakukan pengecekan
+        // let country;
+
+        // if(person.address !== undefined && person.address !== null){
+        //     country = person.address.country;
+        // }
+
+        // console.info("sukses");
+        // console.info(country);
+
+        //cara optional chaining lebih cepat
+
+        let country = person?.address?.country;
+
+        console.info("sukses");
+        console.info(country);
+
+
+    </script>
+</body>
+</html>
