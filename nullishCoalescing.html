@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nullish</title>
+</head>
+<body>
+    <script>
+        //KODE TANPA NULLISH
+        // let parameter ;
+
+        // let data = parameter;
+        // if (data === undefined || data == null){
+        //     data = "Nilai Null";
+        // }
+
+        //KODE DENGAN NULLISH
+        let parameter;
+
+        let data = parameter ?? "Nilai Default"
+
+        console.info(data)
+    </script>
+</body>
+</html>
